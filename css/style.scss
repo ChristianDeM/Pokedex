@@ -1,0 +1,105 @@
+body{
+    background-color: #00617e;
+    opacity: 1;
+    background-image: radial-gradient(circle at center center, #ffffff, #00617e), repeating-radial-gradient(circle at center center, #ffffff, #ffffff, 40px, transparent 80px, transparent 40px);
+    background-blend-mode: multiply;
+}
+
+$trazo:5px solid #000000;
+
+li{
+    font-size: 13px;
+    font-weight: bold;
+}
+    
+
+
+.navbar-brand{
+    text-align: center;
+    font-size: xx-large;
+    font-family: pokemon;
+    padding-right: 5%;
+    color: yellow !important;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(6, 97, 182);
+}
+
+.baner{
+ height: 80px;
+}
+
+.ban{
+   
+    background-color: white;
+    .line{
+        height: 125px;
+        padding-top: 5px;
+        margin:auto 0px;
+        background-color: #dc3545;
+        clip-path: polygon(0 0, 100% 0, 100% 78%, 73% 78%, 57% 100%, 0 100%);
+        border: $trazo;
+    } 
+}
+
+
+
+.circ{
+    background-color: rgb(3, 141, 175);
+    border-radius: 100% 100%;
+    height: 90px;
+    width: 90px;
+    margin:auto 0px;
+    border: 4px solid #ffffff;
+}
+.card{
+    border: $trazo;
+    background-color: #dc3545;
+    
+    
+    .card-body{ 
+       
+ 
+
+        .card-title{
+            background-color: white;
+            text-align: center;
+        }
+        .card-text{
+            background-color: rgb(3, 141, 175);
+            text-align: center;
+        }
+        border-radius: 50px;
+        h4{
+            text-align: center;
+            font-weight: bold;
+        }
+        .numero{
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+    }
+    .imagenpokemon{
+        border-radius: 0px 0px 0px 0px;
+        -moz-border-radius: 0px 0px 0px 0px;
+        -webkit-border-radius: 0px 0px 0px 0px;
+        border: 21px ridge #8f8f8f;
+        height: 170px;
+        width: 170px;
+        background-color: rgb(2, 139, 173); 
+    }
+
+    .butonss{
+        padding-top: 17px;
+        
+    }
+}
+
+.pokedex{
+    align-items: center;
+}
+
+@font-face {
+    font-family: "pokemon";
+    src: url("../font/pks.ttf");
+  }
